@@ -1,0 +1,17 @@
+custom-tabs {
+
+  ion-footer div{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+    background: #ffffff;
+    border-top:1px solid grey;
+  }
+
+  div ion-icon{
+    color: #666;
+  }
+
+}

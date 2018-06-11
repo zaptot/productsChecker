@@ -1,0 +1,22 @@
+<!--
+  Generated template for the PostListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar color="secondary">
+        <ion-title>Настройки</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Уведомления</ion-label>
+    <ion-toggle color="secondary" [(ngModel)]="toggleNotifications"></ion-toggle>
+  </ion-item>
+  <ion-item style="color: red;" (click)="logout()">
+    Выйти из аккаунта
+  </ion-item>
+    <custom-tabs></custom-tabs>
+</ion-content>

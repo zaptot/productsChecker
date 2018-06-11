@@ -1,0 +1,44 @@
+page-profile {
+
+  ion-footer {
+    position: fixed;
+  }
+
+  .like h1{
+    margin-bottom: 20px;
+  }
+
+
+  ion-footer div{
+    height: 50px;
+
+  }
+
+  .header img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .account-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .my-icons ion-icon, .my-icons h1{
+    color: #666;
+
+  }
+
+}
+
+ion-item-sliding{
+  ion-item{
+    background-color: #007aff;
+  }
+}
