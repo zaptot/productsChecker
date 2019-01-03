@@ -1,4 +1,4 @@
-# productsChecker
+# productsChecker 1
 
 A simple cross-platform client-server application (ionic + Nodejs)
 
